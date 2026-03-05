@@ -81,8 +81,6 @@ platforms:
       name: "少数派"
     - id: "juejin"
       name: "稀土掘金"
-    - id: "github"
-      name: "GitHub"
     - id: "zaobao"
       name: "联合早报"
     - id: "cankaoxiaoxi"
