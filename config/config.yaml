@@ -69,15 +69,24 @@ platforms:
       name: "财联社热门"
     - id: "ifeng"
       name: "凤凰网"
-    - id: "tieba"
-      name: "贴吧"
+    - id: "_36kr"
+      name: "36氪"
     - id: "weibo"
       name: "微博"
     - id: "douyin"
       name: "抖音"
     - id: "zhihu"
       name: "知乎"
-
+    - id: "sspai"
+      name: "少数派"
+    - id: "juejin"
+      name: "稀土掘金"
+    - id: "github"
+      name: "GitHub"
+    - id: "zaobao"
+      name: "联合早报"
+    - id: "cankaoxiaoxi"
+      name: "参考消息"
 
 
 # ===============================================================
@@ -155,7 +164,7 @@ rss:
 #    • 适用场景：避免重复信息干扰
 # ===============================================================
 report:
-  mode: "current"                     # 可选: daily | current | incremental
+  mode: "daily"                     # 可选: daily | current | incremental
                                       # ⚠️ 开启调度系统后，此值会被当前时间段的 report_mode 覆盖
 
 
@@ -501,8 +510,8 @@ advanced:
   # 排序权重（用于重新排序不同平台的热搜）
   # 合起来等于 1
   weight:
-    rank: 0.6                         # 排名权重
-    frequency: 0.3                    # 频次权重
+    rank: 0.4                         # 排名权重
+    frequency: 0.5                    # 频次权重
     hotness: 0.1                      # 热度权重
 
   # 多账号限制
